@@ -1,0 +1,30 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Proyecto Node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julian123david/Portafolio.git"
+  },
+  "keywords": [
+    "\"Portafolio",
+    "Node",
+    "Js\""
+  ],
+  "author": "Julian Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julian123david/Portafolio/issues"
+  },
+  "homepage": "https://github.com/Julian123david/Portafolio#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

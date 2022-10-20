@@ -1,0 +1,161 @@
+.banner {
+	/* for positioning */
+	width: 100%;
+	height: 300px;
+	top: 70px;
+	background: linear-gradient(45deg, #4ea3f9, #ff6e6e);
+
+	/* for content alignment */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.banner-title {
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.banner-desc {
+	font-size: 22px;
+	text-align: center;
+}
+.btn-signup {
+	color: white;
+	background-color: #258bf0;
+	border: 0;
+	padding: 15px 25px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.logros {
+	width: 100%;
+	top: 200px; 
+	background: white;
+	height: 100%; 
+	padding: 30px 10%;
+}
+.logros p {
+	margin-bottom: 20px;
+	font-size: 150%;
+
+}
+
+.iconDiv{
+	float: left;
+	text-align: left;
+}
+
+.barra{
+	background-color: #C0C2CB;
+	width: 0;
+	height:100vh;
+	flex-direction: column;
+	margin-right: auto;
+	align-content: start;
+	margin-top: 80px;
+	margin-left: initial;
+	position: fixed ;
+	top:0;
+	left: 0;
+	left: 0;
+	overflow-x: hidden;
+	transition: 0.5s;
+
+}
+
+.barra a{
+	text-decoration: none;
+	display: block;
+	padding: 20px 30px;
+	color: #414181;
+	font-weight: bold;
+
+}
+.barra a:hover{
+	background-color: #A2A5B2;
+	transition: .3s;
+}
+.userimg{
+	margin: auto auto;
+    width: 75px;
+    height: 75px;
+    display: block;
+}
+.barra p{
+	color: #636363;
+	text-align: center;
+	
+}
+
+
+
+
+
+.AdminAccion{
+	background-color: #5fa2e5;
+	border-radius: 10px;
+	width: 250px;
+	height: 200px;
+	padding-top: 5px;
+	display: grid;
+	place-items: center top;
+}
+
+.AdminAccion h4{
+	display: inline-block;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px 10px;
+	font-size: 150%;
+	color: #ffffff;
+}
+
+.AdminAccionDiv{
+	width: 80%;
+	margin: auto auto;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	
+}
+
+.AdminAccion  p{
+	font-size: 100%;
+	font-weight: normal;
+	color: #ffffff;
+	text-align: center;
+}
+.AdminAccion:hover{
+	background-color: #5999d9;
+	transition: .3s;
+}
+
+@media only screen and (max-width: 1100px) {
+  .AdminAccionDiv {
+    flex-direction: column;
+    align-items: center;
+    min-width: 150px;
+  }
+}
+
+.yo{
+	height: 15%;
+	width: 15%;
+	float: left;
+	margin-left: 2%;
+	padding: 4px;
+	border: solid 2px #bbb;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.hist p{
+	font-size: 30px;
+	margin-left: 18%;
+    margin-right: 5%;
+}

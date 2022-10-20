@@ -1,0 +1,105 @@
+.expe{
+    font-size: 30px;
+    background-color: hwb(180 71% 9%);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.proyectos p{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.pruebap{
+    background-color:#7e5eb2;
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
+	padding-top: 5px;
+	display: grid;
+	place-items: center top;
+}
+
+.lenju :hover{
+	transform: scale(1.05);
+}
+
+.pruebap img{
+    width: 200px;
+	height: 100px;
+	top: 150%;
+	position: relative;
+    top: -10px;
+
+}
+
+.pruebap p{
+	font-size: 150%;
+	color: white;
+}
+
+.pruebaj{
+    background-color: #e1e55f;
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
+	padding-top: 5px;
+	display: grid;
+	place-items: center top;
+}
+
+.pruebaj img{
+    width: 200px;
+	height: 100px;
+	top: 150%;
+	position: relative;
+    top: -10px;
+
+}
+
+.pruebaj p{
+	font-size: 150%;
+	color: white;
+}
+
+.pruebam{
+    background-color: #5fa2e5;
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
+	padding-top: 5px;
+	display: grid;
+	place-items: center top;
+}
+
+.pruebam img{
+    width: 200px;
+	height: 100px;
+	top: 150%;
+	position: relative;
+    top: -10px;
+
+}
+
+.pruebam p{
+	font-size: 150%;
+	color: white;
+}
+
+.lenju{
+    width: 80%;
+	margin: auto auto;
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	height:40vh;
+}
+
+.hist p{
+	font-size: 110%;
+	color: white;
+	margin-left: 8%;
+	margin-right: 8%;
+}
